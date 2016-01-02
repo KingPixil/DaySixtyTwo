@@ -1,0 +1,103 @@
+body {
+  background-color: #2980b9;
+  color: #95A5A6;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 10vh
+}
+
+h5 {
+  margin-top: 5px;
+  font-size: 7vh;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  font-size:7vh;
+}
+
+a {
+  color: #95A5A6;
+}
+
+.board-container{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.board-container div {
+  background-color: #2C3E50;
+  border: 1px solid #95A5A6;
+  width: 8px;
+  height: 8px;
+  float: left;
+  cursor: pointer;
+}
+
+.board-container div.true {
+  background-color: #95A5A6;
+}
+
+.controls {
+  height: 30px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 20px 40px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+/* Button 1 */
+
+.btn-1 {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+
+/* Button 1a */
+
+.btn-1:hover,
+.btn-1:active {
+  color: #0e83cd;
+  background: #fff;
+}
